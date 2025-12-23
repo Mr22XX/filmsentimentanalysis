@@ -139,7 +139,3 @@ Undergraduate Student (Semester 5–6)
 
 ```
 
-
-
-👉 tinggal bilang **“buat versi …”**
-```
