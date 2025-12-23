@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SentimentAI Movies</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">🎬 SentimentAI</div>
+
+    <ul class="nav-menu" id="nav-menu">
+        <li><a href="#hero" class="nav-link">Home</a></li>
+        <li><a href="#analyzer" class="nav-link">Analyzer</a></li>
+        <li><a href="/about" class="nav-link">About</a></li>
+    </ul>
+
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</nav>
+
+
+
+
+<section class="hero">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+        <h1>
+            AI Sentiment Analysis<br>
+            <span>for Movie Reviews</span>
+        </h1>
+
+        <p>
+            Understand audience emotions instantly.
+            Analyze movie reviews using Machine Learning and NLP.
+        </p>
+
+        <a href="#analyzer" class="hero-btn">🎬 Analyze Review</a>
+    </div>
+</section>
+
+
+<section class="features">
+    <h2>What Can This AI Do?</h2>
+    <div class="feature-grid">
+        <div class="feature-card">
+            🤖
+            <h3>Machine Learning</h3>
+            <p>Logistic Regression trained on real movie reviews.</p>
+        </div>
+        <div class="feature-card">
+            📊
+            <h3>Confidence Score</h3>
+            <p>See how confident the AI is in its prediction.</p>
+        </div>
+        <div class="feature-card">
+            ⚡
+            <h3>Fast & Interactive</h3>
+            <p>Instant analysis without page reload.</p>
+        </div>
+    </div>
+</section>
+
+<section class="analyzer" id="analyzer">
+    <div class="container">
+        
+        <form id="sentiment-form" class="ai-form">
+            <h1>Try Here</h1>
+            <div class="input-wrapper">
+                <textarea 
+                    id="text-input" 
+                    placeholder="✍️ Type a movie review here...&#10;e.g. The movie was amazing, the acting was brilliant..."
+                    required>
+                </textarea>
+            </div>
+            <button type="submit" class="ai-btn">🤖 Analyze with AI</button>
+        </form>
+
+
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <p>AI is analyzing...</p>
+        </div>
+
+        <div id="result-box"></div>
+        <div class="history" id="history-box"></div>
+    </div>
+</section>
+
+<footer class="footer" id="footer">
+    <p></p>
+</footer>
+
+
+<script src="/static/script.js"></script>
+</body>
+</html>
