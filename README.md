@@ -10,7 +10,7 @@ to demonstrate an end-to-end AI workflow: dataset → model → web → deployme
 ---
 
 ## 🚀 Live Demo
-🔗 https://your-app-name.onrender.com
+🔗 [https://your-app-name.onrender.com](https://mr22xx.pythonanywhere.com/)
 
 ---
 
