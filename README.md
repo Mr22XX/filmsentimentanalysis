@@ -4,8 +4,7 @@
 A web-based AI application to analyze **movie review sentiment**
 (Positive / Negative) using **Machine Learning** and **Flask**.
 
-This project is designed as a **learning-oriented portfolio project**
-to demonstrate an end-to-end AI workflow: dataset → model → web → deployment.
+
 
 ---
 
